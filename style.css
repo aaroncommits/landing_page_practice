@@ -61,6 +61,8 @@ button {
   flex-direction: row;
   justify-content: space-evenly;
   flex: 1;
+  padding-bottom: 50px;
+  align-items: center;
 }
 
 
@@ -83,7 +85,6 @@ button {
 }
 
 .head-bunny {
-  display: flex;
   padding: 50px;
 }
 
@@ -93,21 +94,44 @@ button {
   align-items: center;
   justify-content: space-evenly;
   flex: 1;
+  background-color: white;
+  color: #1F2937;
 }
 
 .section2 {
   display: flex;
   flex: 0;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .body-bunnies {
   display: flex;
-  flex: 0;
+  flex: 0; 
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.body-bunnies > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.section2 > div > h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.body-bunnies > div > p {
+  width: 200;
 }
 
 .body-bunnies > div > img {
-  width: 50;
-
+  width: 250;
+  border-radius: 40px;
+  padding: 30px;
 }
