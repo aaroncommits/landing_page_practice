@@ -199,5 +199,15 @@ button {
 
 .bubbletext > h3 {
   margin-bottom: 0;
+}
 
+.footer {
+  display: flex;
+  font-size: 15px;
+  background-color: #1F2937;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
